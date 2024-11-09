@@ -67,3 +67,8 @@ $stack = new Stack(4);
 $stack->push(1);
 echo "The Stack is <br>";
 $stack->print();
+
+$stack->pop();
+
+echo "The Stack is <br>";
+$stack->print();
