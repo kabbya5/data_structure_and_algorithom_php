@@ -4,7 +4,6 @@ Below is an overview of both:
 
 Stack (LIFO - Last In, First Out)
 A stack follows the LIFO (Last In, First Out) principle, meaning that the last element added to the stack is the first one to be removed.
-
 Operations on Stack:
 Push: Adds an element to the top of the stack.
 Pop: Removes the element from the top of the stack.
