@@ -16,7 +16,7 @@ class Stack{
     private $height;
 
     public function __construct($val = null){
-        if($val){
+        if($val && $this->first == null){
             $new_node = new Node($val);
             $this->first = $new_node;
             $this->last = $new_node;
@@ -38,12 +38,12 @@ class Stack{
     }
 
     public function pop(){
-        if($this->height == 0){
+        if($this->first == null){
             return false;
         }
+
         $temp = $this->first;
         $this->first = $temp->next;
-        $temp = null;
 
         $this->height -= 1;
 
@@ -53,24 +53,31 @@ class Stack{
         }
     }
 
-    
+    public function peek(){
+        if(!$this->isEmpty()) return $this->first;
+    }
 
-    public function print(){
+    public function isEmpty(){
+        return $this->first === null;
+    }
+
+    public function display(){
         $current = $this->first;
-
+        
         while($current !== null){
-            echo "$current->val </br>";
+            echo "$current->val .<br>";
             $current = $current->next;
         }
     }
 }
 
-$stack = new Stack(4);
-$stack->push(1);
-echo "The Stack is <br>";
-$stack->print();
-
+$stack = new Stack('Youtube');
+$stack->push("Google");
+$stack->push('Facebook');
+$stack->push('Laravel');
+echo "Stack List . <br>";
+$stack->display();
+echo "PoP First . <br>";
 $stack->pop();
-
-echo "The Stack is <br>";
-$stack->print();
+$stack->display();
+print_r($stack->peek());
