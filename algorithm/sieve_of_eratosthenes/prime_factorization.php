@@ -25,4 +25,4 @@ class Solution{
 }
 
 $s = new Solution();
-print_r($s->primeFactorization(27));
+print_r($s->primeFactorization(27)) ;
