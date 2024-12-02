@@ -16,3 +16,9 @@ echo $new_string . "<br>"; //"Programer";
 
 $new_string = substr($string, -13, 3);
 echo $new_string . "<br>"; //"php";
+
+// check if substring Exists 
+
+if(str_contains($string, 'php')){
+    echo "Substring found" . "<br>";
+}
