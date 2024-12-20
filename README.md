@@ -5,8 +5,7 @@ The value of each parent node is greater than or equal to the values of its chil
 ### Min-Heap: 
 The value of each parent node is less than or equal to the values of its child nodes.
 ### Max-Heap 
-        1
-      /   \
-     3     6
-    / \   / \
-   5   9 8  12
+Tree Max Heap
+![tree max-heap](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTee1LzwJqFHUhF8xocYhzjpFNgmki91R0paA&s)
+
+
