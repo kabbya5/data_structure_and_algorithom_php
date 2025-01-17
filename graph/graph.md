@@ -22,8 +22,7 @@ Similarly, arrows are from B to c, C to E, etc.
 An unweighted graph is a type of graph in which all edges are considered to have the same "weight" or no weight at all. In other words, each edge is treated as equal, meaning there is no distinction between the edges in terms of cost, distance, or any other metric
 
 ### Applications
-```text 
-1 Social networks (friendship connections).
-1 Routing problems (like finding the shortest number of hops in a network).
-3 Simple undirected graphs where you just need to track connections.
-```
+### 1 Social networks (friendship connections).
+### 1 Routing problems (like finding the shortest number of hops in a network).
+### 3 Simple undirected graphs where you just need to track connections.
+
