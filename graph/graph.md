@@ -26,3 +26,13 @@ An unweighted graph is a type of graph in which all edges are considered to have
  - Routing problems (like finding the shortest number of hops in a network).
  - Simple undirected graphs where you just need to track connections.
 
+### Important 
+- The shortest path in an unweighted graph can be efficiently computed using Breadth-First Search (BFS). BFS guarantees the shortest path regarding the number of edges because it explores all vertices at the current distance before moving to the next distance level.
+- Dijkstra’s Algorithm algorithms is not typically used for unweighted graphs
+- Pathfinding: DFS can explore all paths, though it doesn't guarantee the shortest.
+-Cycle Detection: Useful for detecting cycles in a graph.
+-Connectivity Check: Can verify if all nodes are reachable from a given node.
+-Topological Sorting: Useful in Directed Acyclic Graphs (DAGs).
+
+
+
