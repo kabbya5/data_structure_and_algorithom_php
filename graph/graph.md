@@ -17,7 +17,7 @@ There is an arrow from A to B, meaning a direct path from node A to node B.
 Similarly, arrows are from B to c, C to E, etc.
 
 
-## 2. Directed Graph (Digraph):
+## 2. Unweighted  Graph (Digraph):
 ### Definition:
 An unweighted graph is a type of graph in which all edges are considered to have the same "weight" or no weight at all. In other words, each edge is treated as equal, meaning there is no distinction between the edges in terms of cost, distance, or any other metric
 
