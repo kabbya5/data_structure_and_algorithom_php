@@ -9,6 +9,9 @@ A weighted graph is a type of graph in data structures where each edge has an as
 - Kruskal's Algorithm
 - Prim's Algorithm
 ### 3 Network Flow Analysis
- -Maximum Flow Problem
+ - Maximum Flow Problem
 ### 4 Routing and Navigation
- -Used in GPS and mapping systems.
+ - Used in GPS and mapping systems.
+### 5 Search Algorithms
+ - Depth-First Search (DFS)
+ - Breadth-First Search (BFS
