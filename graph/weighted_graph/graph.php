@@ -33,10 +33,15 @@ class WeightedGraph{
 }
 
 $graph = new WeightedGraph();
-$graph->addEdge('A', 'B', 4);
-$graph->addEdge('A', 'C', 2);
-$graph->addEdge('B', 'C', 3);
-$graph->addEdge('B', 'D', 1);
-$graph->addEdge('C', 'D', 5);
+$graph->addEdge('0', '1', 3);
+$graph->addEdge('0', '8', 4);
+$graph->addEdge('0', '3', 2);
+$graph->addEdge('1', '7', 4);
+$graph->addEdge('7', '2', 2);
+$graph->addEdge('2', '5', 1);
+$graph->addEdge('5', '6', 8);
+$graph->addEdge('2', '3', 6);
+$graph->addEdge('3', '4', 1);
+$graph->addEdge('4', '8', 8);
 
 $graph->display();
