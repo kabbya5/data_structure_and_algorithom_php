@@ -19,7 +19,7 @@ class WeightedGraph{
         $this->adjacency_list[$from][$to]  = $weight;
         $this->adjacency_list[$to][$from]  = $weight;
     }
-
+    
     public function printGraph(){
         foreach($this->adjacency_list as $vertex => $neighbors){
             echo $vertex . " -> ";
